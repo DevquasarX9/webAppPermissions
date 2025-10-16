@@ -8,7 +8,7 @@ PHP_VERSION=$(head -1 .phprc)
 $PHP_VERSION /usr/local/bin/composer lint $CHANGED_FILES
 
 # Run prettier formatter
-#npx prettier $CHANGED_FILES --write
+npx prettier $CHANGED_FILES --write
 
 # Add changed files before commit
 git add $CHANGED_FILES

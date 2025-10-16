@@ -1,0 +1,16 @@
+# Ignore everything recursively
+*
+
+# But not those files
+!*.js
+!*.css
+
+# Check subdirectories too
+!*/
+
+# Ignore minified files
+*.min.*
+
+# Ignore specific directories
+node_modules/*
+vendor/*
