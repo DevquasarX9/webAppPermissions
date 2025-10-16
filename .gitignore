@@ -8,3 +8,4 @@ _ide_helper*
 !.vscode/extensions.json
 .idea
 .DS_Store
+.env
