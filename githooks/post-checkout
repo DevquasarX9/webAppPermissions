@@ -22,6 +22,7 @@ if [ $3 -eq $isBranchCheckout ]; then
     else
         echo "[$(date '+%H:%M:%S')] Skipping composer install - no changes detected"
     fi
+fi
 
 if [ -f ./.git/hooks/post-checkout ]; then
 	./.git/hooks/post-checkout $@
